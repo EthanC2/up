@@ -56,7 +56,6 @@ int main(int argc, char *argv[])
             puts(dynpath);
 
             free(dynpath);
-
     }
 
     return EXIT_SUCCESS;
