@@ -32,11 +32,7 @@ int main(int argc, char *argv[])
     */
     switch (up)
     {
-        case 1:
-        case 2:
-        case 3:
-        case 4:
-        case 5:
+        case 1 ... 5:
             puts(cache[up-1]);
             break;
         default:
